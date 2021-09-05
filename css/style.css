@@ -55,6 +55,10 @@
 52. Contact Form Section
 
 **********************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('href="https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+@import "font-awesome.css";
+
 
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
@@ -10006,21 +10010,13 @@ img{
 	position:relative;
 	display:inline-block;
 	margin-right:10px;
-	padding-right:10px;
 	color:#ffffff;
 	font-size:15px;
 	font-weight:500;
 	font-family: 'Poppins', sans-serif;
 }
 
-.page-title .page-breadcrumb li:after{
-	position:absolute;
-	content:'\f105';
-	right:-4px;
-	top:0px;
-	color:#ffffff;
-	font-family: 'FontAwesome';
-}
+
 
 .page-title .page-breadcrumb li:last-child::after{
 	display:none;
